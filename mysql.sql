@@ -1,0 +1,4 @@
+пробую запросы на уровне SELECT
+SELECT * FROM `employees` WHERE `lastname` = "Bow"; - делаем запрос где из таблицы `employees` где из этой таблицы мы далее выбрали столб с названием `lastname` и выбрали фамилию, которое нас интересует ( в нашем случае - это Bow)
+SELECT * FROM `customers` WHERE `city` IN ("London", "Barcelona"); - делаем запрос, где из таблицы `customers` , где из столбца `city` выбираем несколько интересующих нас городов
+SELECT `country` FROM `customers` - этой командой можно выбрать все страны, из таблицы `customers` , но что бы города не повторялись, следует указывать перед командой SELECT DISTINCT
